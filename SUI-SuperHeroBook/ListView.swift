@@ -14,7 +14,7 @@ struct ListView: View {
                 NavigationLink {
                     DetailsView(choosedSuperHero: superHero)
                 } label: {
-                    Text(superHero.name)
+                    ListRowView(superHero: superHero)
                 }
 
             }.navigationTitle("SuperHero Book")
