@@ -11,7 +11,7 @@ import SwiftUI
 struct SUI_SuperHeroBookApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ListView()
         }
     }
 }

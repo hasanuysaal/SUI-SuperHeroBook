@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		40EDE40A28D8686A009915EA /* SUI_SuperHeroBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EDE40928D8686A009915EA /* SUI_SuperHeroBookApp.swift */; };
-		40EDE40C28D8686A009915EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EDE40B28D8686A009915EA /* ContentView.swift */; };
+		40EDE40C28D8686A009915EA /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EDE40B28D8686A009915EA /* ListView.swift */; };
 		40EDE40E28D8686D009915EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40EDE40D28D8686D009915EA /* Assets.xcassets */; };
 		40EDE41128D8686D009915EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40EDE41028D8686D009915EA /* Preview Assets.xcassets */; };
 		40EDE41828D86B67009915EA /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EDE41728D86B67009915EA /* SuperHero.swift */; };
@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		40EDE40628D8686A009915EA /* SUI-SuperHeroBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SUI-SuperHeroBook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40EDE40928D8686A009915EA /* SUI_SuperHeroBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUI_SuperHeroBookApp.swift; sourceTree = "<group>"; };
-		40EDE40B28D8686A009915EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		40EDE40B28D8686A009915EA /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		40EDE40D28D8686D009915EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40EDE41028D8686D009915EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		40EDE41728D86B67009915EA /* SuperHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHero.swift; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				40EDE40928D8686A009915EA /* SUI_SuperHeroBookApp.swift */,
-				40EDE40B28D8686A009915EA /* ContentView.swift */,
+				40EDE40B28D8686A009915EA /* ListView.swift */,
 				40EDE40D28D8686D009915EA /* Assets.xcassets */,
 				40EDE40F28D8686D009915EA /* Preview Content */,
 				40EDE41728D86B67009915EA /* SuperHero.swift */,
@@ -149,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40EDE40C28D8686A009915EA /* ContentView.swift in Sources */,
+				40EDE40C28D8686A009915EA /* ListView.swift in Sources */,
 				40EDE41C28D87E1B009915EA /* DetailsView.swift in Sources */,
 				40EDE41A28D870D6009915EA /* MapView.swift in Sources */,
 				40EDE40A28D8686A009915EA /* SUI_SuperHeroBookApp.swift in Sources */,
