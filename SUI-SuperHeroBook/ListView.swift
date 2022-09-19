@@ -24,6 +24,15 @@ struct ListView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ListView()
+        Group {
+            ListView()
+                .previewDevice("iPhone 11")
+                .previewDisplayName("iPhone 11")
+            
+            ListView()
+                .previewDevice("iPhone 8")
+                .previewDisplayName("iPhone 8")
+        }
+        
     }
 }
