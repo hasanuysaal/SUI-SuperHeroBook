@@ -13,6 +13,8 @@
 		40EDE41128D8686D009915EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40EDE41028D8686D009915EA /* Preview Assets.xcassets */; };
 		40EDE41828D86B67009915EA /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EDE41728D86B67009915EA /* SuperHero.swift */; };
 		40EDE41A28D870D6009915EA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EDE41928D870D6009915EA /* MapView.swift */; };
+		40EDE41C28D87E1B009915EA /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EDE41B28D87E1B009915EA /* DetailsView.swift */; };
+		40EDE41E28D87F16009915EA /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EDE41D28D87F16009915EA /* CircleImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		40EDE41028D8686D009915EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		40EDE41728D86B67009915EA /* SuperHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHero.swift; sourceTree = "<group>"; };
 		40EDE41928D870D6009915EA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		40EDE41B28D87E1B009915EA /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		40EDE41D28D87F16009915EA /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				40EDE40F28D8686D009915EA /* Preview Content */,
 				40EDE41728D86B67009915EA /* SuperHero.swift */,
 				40EDE41928D870D6009915EA /* MapView.swift */,
+				40EDE41B28D87E1B009915EA /* DetailsView.swift */,
+				40EDE41D28D87F16009915EA /* CircleImageView.swift */,
 			);
 			path = "SUI-SuperHeroBook";
 			sourceTree = "<group>";
@@ -144,8 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				40EDE40C28D8686A009915EA /* ContentView.swift in Sources */,
+				40EDE41C28D87E1B009915EA /* DetailsView.swift in Sources */,
 				40EDE41A28D870D6009915EA /* MapView.swift in Sources */,
 				40EDE40A28D8686A009915EA /* SUI_SuperHeroBookApp.swift in Sources */,
+				40EDE41E28D87F16009915EA /* CircleImageView.swift in Sources */,
 				40EDE41828D86B67009915EA /* SuperHero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
